@@ -1,0 +1,8 @@
+<!--pages/songlist/songlist.wxml-->
+<view class="songlist">
+    <view class="singlesong" wx:for="{{songlistdata}}" wx:key="id">
+      <video wx:if="{{curvideoid == item.id}}" id="{{item.id}}" src="{{cursrc}}"></video>
+      <image wx:else src="{{item.cover}}"  id="{{item.id}}" bindtap="handleSongPlay" />
+      <text>{{item.name}}</text>
+    </view>
+</view>

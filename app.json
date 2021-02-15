@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/music/music",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/songlist/songlist",
+    "pages/mvlist/mvlist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FA5858",
+    "navigationBarTitleText": "Music",
+    "navigationBarTextStyle": "white"
+    
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/music/music",
+        "text": "推荐",
+        "selectedIconPath": "pages/static/faye3.jpg",
+        "iconPath": "pages/static/faye3.jpg"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "selectedIconPath": "pages/static/faye2.jpg",
+        "iconPath": "pages/static/faye2.jpg"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes":["audio"]
+}

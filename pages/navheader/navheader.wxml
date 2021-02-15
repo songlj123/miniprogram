@@ -1,0 +1,5 @@
+<!--pages/navheader.wxml-->
+<view class="rec">
+  <text class="recommendsong">{{lefttext}}</text>
+  <view class="more"><text>{{rightbutton}}></text></view>
+</view>

@@ -1,0 +1,7 @@
+<!--pages/songlist/songlist.wxml-->
+<view class="songlist">
+    <view class="singlesong" wx:for="{{songlistdata}}" wx:key="{{item.song.al.id}}">
+      <image  src="{{item.song.al.picUrl}}"  id="{{item.song.al.id}}" bindtap="handleSongPlay" />
+      <text>{{item.song.al.name}}</text>
+    </view>
+</view>

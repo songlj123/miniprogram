@@ -1,0 +1,18 @@
+/* pages/navheader.wxss */
+.recommendsong{
+  font-size:30rpx;
+  margin-left:20rpx;
+}
+.more{
+  font-size:20rpx;
+  float:right;
+  margin-right:20rpx;
+  border:1rpx solid #ccc;
+  padding:10rpx;
+  border-radius: 20rpx;
+}
+.rec{
+  border-top:1rpx solid #ccc;
+  padding-top:20rpx;
+  margin-top:40rpx;
+}

@@ -1,0 +1,26 @@
+.songlist{
+  margin-top:20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  /*align-items: center;
+  align-content: center;*/
+}
+.singlesong{
+  width:200rpx;
+  display: flex;
+  flex-direction: column;
+  margin-right:25rpx;
+  margin-left:25rpx;
+  margin-bottom:10rpx;
+}
+.singlesong image{
+  width:200rpx;
+  height:200rpx
+}
+.singlesong text{
+  font-size:18rpx;
+  /*margin:10rpx auto;*/
+  width:200rpx;
+  text-align: center;
+  margin-top:10rpx;
+}

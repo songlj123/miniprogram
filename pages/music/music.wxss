@@ -1,0 +1,94 @@
+/* pages/music/music.wxss */
+.img{
+  height:350rpx;
+}
+.icon{
+  float:left;
+  margin-left:20rpx;
+  text-align: center;
+}
+.iconlist{
+  margin-top:20rpx;
+}
+.iconlist::after{
+  content:"";
+  display: block;
+  width:0px;
+  height:0px;
+  overflow: hidden;
+  clear: both;
+}
+.iconimg{
+  margin-top:10rpx;
+  width:80rpx;
+  height:80rpx;
+}
+.icontext{
+  font-size:25rpx;
+}
+.icon view{
+  /*border:1rpx solid #fbc;*/
+  width:100rpx;
+  text-align:center;
+  padding:10rpx;
+  height:100rpx;
+  border-radius:50%;
+  background-color:rgb(226, 208, 218);
+}
+/*.menu{
+  display: flex;
+  flex-direction: row;
+}
+.menu > view {
+  align-items: center;
+}*/
+.iconlist{
+  margin-left:30rpx;
+  margin-bottom: 30rpx;
+}
+
+/*.rec::after{
+  content:"";
+  display: block;
+  width:0px;
+  height:0px;
+  overflow: hidden;
+  clear: both;
+}*/
+
+.songlist{
+  display: flex;
+  height:220rpx;
+  /*flex-direction: row;
+  align-items: center;*/
+}
+.songlist image{
+  width:150rpx;
+  height:150rpx;
+  border-radius: 20rpx;
+}
+.viewblock{
+  margin-right:20rpx;
+  text-align:center;
+}
+
+.singlesong{
+  display: flex;
+  margin-bottom:20rpx;
+}
+.singleimg{
+  width:100rpx;
+  height:100rpx;
+}
+.singlesong text{
+  font-size:20rpx;
+  width:100rpx;
+  line-height: 100rpx;
+  text-align:center;
+}
+.songcontainer{
+  margin-left:20rpx;
+}
+/*.songlist{
+  height:300rpx;
+}*/

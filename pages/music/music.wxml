@@ -1,0 +1,147 @@
+<!--pages/music/music.wxml-->
+<swiper indicator-dots indicator-active-color="#fbc">
+  <swiper-item>
+    <image class="img" src="/pages/static/img1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image  class="img"  src="/pages/static/timg.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image class="img" src="/pages/static/faye.jpg"></image>
+  </swiper-item>
+</swiper>
+<view class="iconlist">
+  <view class="icon">
+    <view><image class="iconimg" src="/pages/static/bingtutubiao.svg"></image></view>
+    <text class="icontext">私人FM</text>
+  </view>
+  <view class="icon">
+    <view><image class="iconimg" src="/pages/static/cangchucangku.svg"></image></view>
+    <text class="icontext">歌单</text>
+  </view>
+  <view class="icon">
+    <view><image class="iconimg" bindtap="handleimgtap" src="/pages/static/chayan.svg"></image></view>
+    <text class="icontext">排行榜</text>
+  </view>
+  <view class="icon">
+    <view><image class="iconimg" src="/pages/static/chufang.svg"></image></view>
+    <text class="icontext">直播</text>
+  </view>
+  <view class="icon lasticon">
+    <view><image class="iconimg" bindtap="handledigitaltap" src="/pages/static/dicengjiagou.svg"></image></view>
+    <text class="icontext">数字专辑</text>
+  </view>
+</view>
+<!--
+<view class="menu">
+  <view>
+    <view><image class="iconimg" src="/pages/static/bingtutubiao.svg"></image></view>
+    <text class="icontext">私人FM</text>
+  </view>
+  <view>
+    <view><image class="iconimg" src="/pages/static/cangchucangku.svg"></image></view>
+    <text class="icontext">歌单</text>
+  </view>
+  <view>
+    <view><image class="iconimg" src="/pages/static/chayan.svg"></image></view>
+    <text class="icontext">排行榜</text>
+  </view>
+  <view>
+    <view><image class="iconimg" src="/pages/static/chufang.svg"></image></view>
+    <text class="icontext">直播</text>
+  </view>
+  <view>
+    <view><image class="iconimg" src="/pages/static/dicengjiagou.svg"></image></view>
+    <text class="icontext">数字专辑</text>
+  </view>
+</view>-->
+  <Navheader lefttext="推荐歌曲" rightbutton="更多>"></Navheader>
+  <scroll-view enable-flex scroll-x class="songlist">
+    <view class="viewblock">
+    <view><image src="/pages/static/faye1.jpg"></image></view>
+    <text class="icontext">数字专辑</text>
+    </view>
+    <view class="viewblock">
+    <view><image src="/pages/static/faye2.jpg"></image></view>
+    <text class="icontext">数字专辑</text>
+    </view>
+    <view class="viewblock">
+    <view><image src="/pages/static/faye3.jpg"></image></view>
+    <text class="icontext">数字专辑</text>
+    </view>
+    <view class="viewblock">
+    <view><image src="/pages/static/faye4.jpg"></image></view>
+    <text class="icontext">数字专辑</text>
+    </view>
+    <view class="viewblock">
+    <view><image src="/pages/static/faye5.jpg"></image></view>
+    <text class="icontext">数字专辑</text>
+    </view>
+    <view class="viewblock">
+    <view><image src="/pages/static/faye6.jpg"></image></view>
+    <text class="icontext">数字专辑</text>
+    </view>
+  </scroll-view>
+  <Navheader lefttext="私人定制" rightbutton="播放"></Navheader>
+  <swiper next-margin="100rpx">
+    <swiper-item class="songlist">
+      <view class="songcontainer">
+      <view class="singlesong">
+        <image class="singleimg" src="/pages/static/faye6.jpg"></image>
+        <text>1</text>
+        <text>K歌之王</text>
+      </view>
+      <view class="singlesong">
+        <image class="singleimg" src="/pages/static/faye6.jpg"></image>
+        <text>1</text>
+        <text>K歌之王</text>
+      </view>
+      <view class="singlesong">
+        <image class="singleimg" src="/pages/static/faye6.jpg"></image>
+        <text>1</text>
+        <text>K歌之王</text>
+      </view>
+      </view>
+    </swiper-item>
+    <swiper-item class="songlist">
+      <view class="songcontainer">
+      <view class="singlesong">
+        <image class="singleimg" src="/pages/static/faye6.jpg"></image>
+        <text>1</text>
+        <text>K歌之王</text>
+      </view>
+      <view class="singlesong">
+        <image class="singleimg" src="/pages/static/faye6.jpg"></image>
+        <text>1</text>
+        <text>K歌之王</text>
+      </view>
+      <view class="singlesong">
+        <image class="singleimg" src="/pages/static/faye6.jpg"></image>
+        <text>1</text>
+        <text>K歌之王</text>
+      </view>
+      </view>
+    </swiper-item>
+    <swiper-item class="songlist">
+      <view class="songcontainer">
+      <view class="singlesong">
+        <image class="singleimg" src="/pages/static/faye6.jpg"></image>
+        <text>1</text>
+        <text>K歌之王</text>
+      </view>
+      <view class="singlesong">
+        <image class="singleimg" src="/pages/static/faye6.jpg"></image>
+        <text>1</text>
+        <text>K歌之王</text>
+      </view>
+      <view class="singlesong">
+        <image class="singleimg" src="/pages/static/faye6.jpg"></image>
+        <text>1</text>
+        <text>K歌之王</text>
+      </view>
+      </view>
+    </swiper-item>
+  </swiper>
+ 
+
+
